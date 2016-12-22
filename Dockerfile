@@ -2,7 +2,7 @@ FROM albarji/neural-style
 
 WORKDIR /app
 
-wget http://upload.daoapp.io/loadfile/hw.go
+RUN wget http://upload.daoapp.io/loadfile/hw
 
 EXPOSE 80
 
